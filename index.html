@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cristian Contreras</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css" /> 
+    </head>
+    <body>
+        <div id="particles-js"></div>
+
+        <header id="main-header">
+            <div class="container">
+            <h1 class="site-title">Cristian Contreras</h1>
+            <nav class="main-nav">
+                <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de Mí</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#skills">Stack Tecnológico</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#certifications">Diplomados y Certificaciones</a></li>
+                <li><a href="#experience">Experiencia Laboral</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h2 class="hero-name"><span id="typed-output"></span></h2>
+                <p class="hero-tagline">Desarrollador Full Stack | Analista de Datos</p> 
+                <div class="hero-buttons">
+                    <a href="#about" class="btn primary-btn">Acerca de Mí</a>
+                    <a href="cv/Cristian Contreras.pdf" class="btn secondary-btn" target="_blank">Descargar CV</a> 
+                </div>
+            </div>
+            <div class="scroll-navigation-buttons">
+                <div id="scroll-down-btn" class="scroll-indicator-btn">
+                    <div class="arrow arrow-down"></div>
+                </div>
+                <div id="scroll-up-btn" class="scroll-indicator-btn hidden">
+                    <div class="arrow arrow-up"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container about-content">
+                <h2>Acerca de Mí</h2>
+                <div class="about-flex-container">
+                    <div class="about-image">
+                        <img src="img/cristian_contreras.jpeg" alt="Cristian Contreras" class="profile-photo">
+                    </div>
+                    <div class="about-text">
+                        <p>¡Hola! Soy Cristian Contreras, un <strong>Desarrollador Full Stack</strong> con una sólida trayectoria en <strong>Gestión de Proyectos y Liderazgo de Equipos</strong>. Mi pasión reside en impulsar el ciclo de vida completo de los proyectos, desde la toma de requerimientos y la planificación estratégica hasta el desarrollo y la entrega final, garantizando soluciones robustas y escalables.</p>
+                        <p>Me destaco por mi compromiso con el <strong>Desarrollo y Capacitación de Talento</strong>, habiendo tenido la oportunidad de guiar y capacitar a nuevos colegas, practicantes y tesistas. Creo firmemente en el poder de compartir conocimientos para fortalecer al equipo.</p>
+                        <p>Apasionado por el <strong>Aprendizaje Continuo</strong>, siempre estoy explorando e integrando nuevas tecnologías para optimizar procesos y mejorar las tareas diarias. Soy una persona comprometida, colaborativa y siempre lista para asumir nuevos desafíos, buscando siempre la mejor experiencia de usuario y la excelencia en cada línea de código. Fuera del código, me encanta la escalada deportiva, los videojuegos y <strong>mantenerme al día con las últimas tendencias tecnológicas</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="content-section">
+            <div class="container">
+                <h2>Testimonios</h2>
+                <p class="section-intro">Pero no lo oigan solo de mí, escuchen a mis excolegas:</p>
+
+                <blockquote class="about-quote about-quote-highlight">
+                    <p>"Tuve el privilegio de trabajar con Cristian durante su paso por la UTEM, y puedo dar fe de que es un profesional excepcional. Su capacidad de adaptación, agilidad para resolver problemas y actitud proactiva lo convirtieron en un pilar fundamental en los momentos más exigentes del departamento.</p>
+                    <p>Cristian no solo destaca por su dominio técnico y su colaboración constante, sino también por una cualidad que pocas veces se encuentra en perfiles técnicos: su vocación formadora. Tiene un talento natural para explicar, compartir conocimiento y guiar a otros con paciencia y claridad.</p>
+                    <p>Admiro profundamente su resiliencia, su capacidad de crecer frente a la adversidad y su actitud humilde y comprometida. Estoy seguro de que Cristian seguirá siendo un gran aporte donde sea que decida continuar su camino profesional."</p>
+                    <cite>— Sebastián Vega Sánchez, Director de Sistemas y Servicios de Informática (SISEI)</cite>
+                </blockquote>
+
+                <div class="about-quote-grid"> 
+                    <blockquote class="about-quote">
+                        <p>"Rápido me di cuenta de que eras un muy buen dev y una gran herramienta para el equipo."</p>
+                        <cite>— Yerko Foncea Castro, Jefe de Proyectos</cite>
+                    </blockquote>
+
+                    <blockquote class="about-quote">
+                        <p>"Un profesional con una incesante sed de aprendizaje. Analítico, excelente expresando sus ideas, cercano y con la humildad necesaria para seguir creciendo en diversas áreas."</p>
+                        <cite>— Hector González Loyola, Encargado de Diseño y Cultura Digital</cite>
+                    </blockquote>
+                    
+                    <blockquote class="about-quote">
+                        <p>"Tuve la oportunidad de trabajar con Cristian y la verdad es que siempre fue alguien muy atento y dispuesto a ayudar. Gracias a su experiencia y manejo de ciertos procesos, muchas cosas se resolvían súper rápido, incluso cuando eran temas más complejos. Siempre tuvo buena disposición, tanto remoto como presencial, y eso se agradece mucho. Sin duda es alguien que aporta tanto en lo técnico como en lo humano, y sé que donde siga trabajando va a dejar una muy buena impresión."</p>
+                        <cite>— Jose Carvallo Martínez, Ingeniero Civil en Computación mención Informática</cite>
+                    </blockquote>
+
+                    <blockquote class="about-quote">
+                        <p>"Excelente elemento, persona analitica dispuesta a enseñarle a las personas, compartir ideas y soluciones de los diferentes problemas que se le presentan."</p>
+                        <cite>— Claudio Aravena Alcaino, Ingeniero de ejecución en informatica mención desarrollo de sistemas (Senior)</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <div class="container">
+                <h2>Stack Tecnológico</h2>
+                <p class="section-intro">Dominio de las siguientes tecnologías y herramientas para el desarrollo de software:</p>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Desarrollo Backend</h3>
+                        <ul>
+                            <li><img src="img/logos/python-logo.png" alt="Python Logo" class="tech-logo"> 
+                                Python
+                            </li>
+                            <li><img src="img/logos/django-logo.png" alt="Django Logo" class="tech-logo"> 
+                                Django
+                            </li>
+                            <li><img src="img/logos/flask-logo.png" alt="Flask Logo" class="tech-logo"> 
+                                Flask
+                            </li>
+                            <li><img src="img/logos/sql-logo.png" alt="SQL Logo" class="tech-logo"> 
+                                SQL
+                            </li>
+                            <li><img src="img/logos/postgresql-logo.png" alt="PostgreSQL Logo" class="tech-logo"> 
+                                PostgreSQL
+                            </li>
+                            <li><img src="img/logos/api_rest.png" alt="REST API Logo" class="tech-logo">
+                                APIs RESTful
+                            </li>
+                            </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Desarrollo Frontend</h3>
+                        <ul>
+                            <li><img src="img/logos/javascript-logo.png" alt="JavaScript Logo" class="tech-logo"> 
+                                JavaScript
+                            </li>
+                            <li><img src="img/logos/jquery-logo.png" alt="JQuery Logo" class="tech-logo"> 
+                                JQuery
+                            </li>
+                            <li><img src="img/logos/typescript-logo.png" alt="Typescript Logo" class="tech-logo"> 
+                                Typescript
+                            </li>
+                            <li><img src="img/logos/angular-logo.png" alt="Angular Logo" class="tech-logo"> 
+                                Angular
+                            </li>
+                            </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Lenguajes de Marcado y Estilos</h3>
+                        <ul>
+                            <li><img src="img/logos/html5-logo.png" alt="HTML5 Logo" class="tech-logo"> 
+                                HTML5
+                            </li>
+                            <li><img src="img/logos/css3-logo.png" alt="CSS3 Logo" class="tech-logo"> 
+                                CSS3
+                            </li>
+                            <li><img src="img/logos/tailwind-logo.png" alt="Tailwind CSS Logo" class="tech-logo"> 
+                                Tailwind CSS
+                            </li>
+                            <li><img src="img/logos/bootstrap-logo.png" alt="Bootstrap Logo" class="tech-logo"> 
+                                Bootstrap
+                            </li>
+                            </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Herramientas y Otros</h3>
+                        <ul>
+                            <li><img src="img/logos/jira-logo.png" alt="Jira Logo" class="tech-logo"> 
+                                Jira
+                            </li>
+                            <li><img src="img/logos/vscode-logo.png" alt="VS Code Logo" class="tech-logo"> VS 
+                                Code
+                            </li>
+                            <li><img src="img/logos/postman-logo.png" alt="Postman Logo" class="tech-logo"> 
+                                Postman
+                            </li>
+                            <li><img src="img/logos/docker-logo.png" alt="Docker Logo" class="tech-logo"> 
+                                Docker
+                            </li>
+                            <li><img src="img/logos/scrum-logo.png" alt="Scrum Logo" class="tech-logo"> 
+                                Scrum
+                            </li>
+                            <li><img src="img/logos/kanban-logo.png" alt="Agile Logo" class="tech-logo"> 
+                                Kanban
+                            </li>
+                            <li><img src="img/logos/git-logo.png" alt="Git Logo" class="tech-logo"> 
+                                Git, GitLab, 
+                                GitHub
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <div class="container">
+                <h2>Proyectos</h2>
+                <p class="section-intro">Explora algunos de los proyectos más relevantes que he desarrollado, donde aplico mis habilidades para resolver problemas reales:</p>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="reloj-control">
+                        <img src="img/proyectos/reloj-control-full.png" alt="Mantenedor de Reloj Control">
+                        <h3>Mantenedor de Reloj Control</h3>
+                        <p class="project-description-short">Plataforma para la administración flexible y masiva del marcaje digital de teletrabajo en RRHH.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="postulacion-teletrabajo">
+                        <img src="img/proyectos/postulacion-teletrabajo-full.png" alt="Flujo de Postulación a Teletrabajo">
+                        <h3>Flujo Digital de Postulación al Teletrabajo</h3>
+                        <p class="project-description-short">Digitalización completa del proceso de solicitud y aprobación de teletrabajo, con visaciones y firma digital.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="postulacion-casino">
+                        <img src="img/proyectos/postulacion-casino-full.png" alt="Gestión de Postulaciones: Beneficio Casino">
+                        <h3>Gestión de Postulaciones: Beneficio Casino</h3>
+                        <p class="project-description-short">Módulo para la solicitud y visación digital del beneficio de almuerzo gratuito en el casino universitario.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="cupones-casino">
+                        <img src="img/proyectos/cupones-casino-full.png" alt="Módulo de Cupones QR para Beneficio Casino">
+                        <h3>Módulo de Cupones QR para Beneficio Casino</h3>
+                        <p class="project-description-short">Sistema de emisión de cupones QR para el casino, con integración clave a la plataforma de validación 'HADES'.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="reportes-matricula">
+                        <img src="img/proyectos/reportes-matricula-full.png" alt="Dashboard de Reportes de Matrícula">
+                        <h3>Dashboard de Reportes de Matrícula</h3>
+                        <p class="project-description-short">Desarrollo y gestión de visualizaciones estratégicas para el seguimiento preciso del proceso de matrícula universitaria.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="formulacion-presupuestaria">
+                        <img src="img/proyectos/formulacion-presupuestaria-full.png" alt="Proceso de Formulación Presupuestaria">
+                        <h3>Soporte y Carga: Formulación Presupuestaria</h3>
+                        <p class="project-description-short">Participación activa en el ciclo anual de planificación presupuestaria, desde la carga de datos hasta el soporte y capacitación.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="sistema-eventos">
+                        <img src="img/proyectos/sistema-eventos-full.jpeg" alt="Sistema de Gestión de Eventos y Control de Acceso">
+                        <h3>Sistema de Gestión de Eventos y Control de Acceso</h3>
+                        <p class="project-description-short">Plataforma para la creación de eventos, generación de invitaciones con QR y reporte de asistencia.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="transparencia-activa">
+                        <img src="img/proyectos/transparencia-activa-full.png" alt="Gestión y Mantenimiento: Portal de Transparencia Activa">
+                        <h3>Gestión y Mantenimiento: Portal de Transparencia Activa</h3>
+                        <p class="project-description-short">Responsable de la carga, actualización de contenido y gestión del portal público de Transparencia Universitaria en WordPress.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="portafolio-personal">
+                        <img src="img/proyectos/portafolio-personal-full.png" alt="Portafolio Personal">
+                        <h3>Portafolio Personal</h3>
+                        <p class="project-description-short">Mi propio sitio web, diseñado y desarrollado para exhibir mis habilidades técnicas y proyectos más destacados.</p>
+                        <div class="project-card-footer">
+                            <span class="view-details-text">Ver Detalles</span>
+                            <i class="fas fa-arrow-right"></i> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <img id="modal-image" src="" alt="Imagen del Proyecto">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+                </div>
+        </div>
+
+        <section id="certifications" class="content-section">
+            <div class="certifications-section">
+                <h2>Diplomados y Certificaciones</h2>
+                <p class="section-intro">Mi compromiso con el aprendizaje continuo se refleja en mis diplomados y certificaciones, siempre buscando estar a la vanguardia:</p>
+                <div class="certifications-grid">
+                    <div class="certification-item">
+                        <h4>Diplomado en Modelamiento y Análisis de Datos</h4>
+                        <p class="institution">Universidad Tecnologica Metropolitana.</p>
+                        <p class="date">Noviembre 2024</p>
+                        <p class="description">Especialización en técnicas avanzadas de modelado de datos, análisis estadístico y uso de herramientas para la inteligencia de negocio.</p>
+                        <a href="https://drive.google.com/file/d/1J7MROhfk5BIEKPtqPj9qw4MBLk-uh7Lo/view?usp=drive_link" target="_blank" class="credential-link">Ver Credencial <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="certification-item">
+                        <h4>Certificación en Liderazgo</h4>
+                        <p class="institution">Banco Santander | Open Academy</p>
+                        <p class="date">Julio 2025</p>
+                        <p class="description">Desarrollo de habilidades esenciales para la dirección de equipos, comunicación estratégica y resolución de conflictos.</p>
+                        <a href="https://drive.google.com/file/d/1ElUYTyPGwWxzTiOE5sfXHvTDTyh3-AM5/view?usp=sharing" target="_blank" class="credential-link">Ver Credencial <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="certification-item">
+                        <h4>Certificación en Python</h4>
+                        <p class="institution">Banco Santander | Open Academy</p>
+                        <p class="date">Julio 2025</p>
+                        <p class="description">Validación de mis conocimientos en programación avanzada con Python, abarcando desde fundamentos hasta desarrollo de aplicaciones.</p>
+                        <a href="https://drive.google.com/file/d/1oKsmCEppR61tjlA_ADDzfBAFWMmLRX1c/view?usp=sharing" target="_blank" class="credential-link">Ver Credencial <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="certification-item">
+                        <h4>Certificación Scrum</h4>
+                        <p class="institution">Scrum Foundation Professional Certificate - SFPC™</p>
+                        <p class="date">Mayo 2022</p>
+                        <p class="description">Dominio de la metodología ágil Scrum, incluyendo roles, eventos, artefactos y aplicación en la gestión de proyectos de software.</p>
+                        <a href="https://www.credly.com/badges/3f3e5e63-cc56-4d59-9a9d-7c35da1431a8?source=linked_in_profile" target="_blank" class="credential-link">Ver Credencial <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="content-section">
+            <div class="container">
+                <h2>Experiencia Laboral</h2>
+                <p class="section-intro">Mi trayectoria profesional en el ámbito de la informática, destacando roles clave y aportes significativos:</p>
+                <div class="experience-grid">
+                    <div class="experience-item">
+                        <h4>Programador Computacional</h4>
+                        <p class="company">Universidad Tecnológica Metropolitana (UTEM)</p>
+                        <p class="period">Mayo 2022 - Julio 2025 (3 años y 3 meses)</p>
+                        <ul class="responsibilities">
+                            <li>Desarrollo y mantenimiento de aplicaciones web con Python (Django) y bases de datos (SQL Server, PostgreSQL).</li>
+                            <li>Creación y optimización de APIs REST para la integración de sistemas.</li>
+                            <li>Implementación de interfaces de usuario con HTML, CSS (Bootstrap) y JavaScript (jQueryUI).</li>
+                            <li>Participación en el ciclo completo de desarrollo de software, desde el análisis de requisitos hasta el despliegue.</li>
+                            <li>Colaboración en proyectos clave como el sistema de Reloj Control, flujos de Postulación a Teletrabajo y módulos de gestión de beneficios.</li>
+                        </ul>
+                        <p class="technologies">**Tecnologías:** Python, Django, SQL Server, PostgreSQL, JavaScript, jQueryUI, HTML, CSS, Bootstrap, Git, entre muchas otras más.</p>
+                    </div>
+
+                    <div class="experience-item">
+                        <h4>Técnico de Soporte / Mantenimiento Informático Freelance</h4>
+                        <p class="company">Independiente</p>
+                        <p class="period">2018 - Presente (7 años)</p>
+                        <ul class="responsibilities">
+                            <li>Diagnóstico y resolución de problemas de hardware y software en computadores de escritorio y notebooks.</li>
+                            <li>Ensamblaje y configuración de equipos desde cero, incluyendo instalación de sistemas operativos (Windows, Linux) y licencias.</li>
+                            <li>Realización de formateos, respaldos de información y optimización de rendimiento de sistemas.</li>
+                            <li>Asesoramiento personalizado a clientes sobre mejoras de equipos y buenas prácticas de seguridad informática.</li>
+                            <li>Gestión autónoma de servicios, demostrando proactividad, autogestión y habilidades de atención al cliente.</li>
+                        </ul>
+                        <p class="technologies">**Habilidades:** Diagnóstico de Hardware/Software, Mantenimiento Completo, Ensamblaje de PCs, Instalación de SO, Optimización de Sistemas, Atención al Cliente, Autogestión.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h2>Contáctame</h2>
+                <p class="contact-intro">¿Interesado en mi perfil o en colaborar en un nuevo proyecto? ¡Hablemos!</p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p>Email: <a href="mailto:cristian.joao.contreras@gmail.com">cristian.joao.contreras@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div style="display:flex">
+                            <p>Teléfono: <a href="tel:+56993529011">+56 9 9352 9011</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p>LinkedIn: <a href="https://linkedin.com/in/cristian-contreras-argandoña" target="_blank">www.linkedin.com/in/cristian-contreras-argandoña</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p>GitHub: <a href="https://github.com/JoaoCon" target="_blank">https://github.com/JoaoCon</a></p>
+                    </div>
+                </div>
+                <p class="contact-call-to-action">¡Espero tu mensaje!</p>
+                </div>
+        </section>
+        <footer>
+            <p>&copy; <span id="current-year"></span> Cristian Contreras - Todos los derechos reservados.</p>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+        <script src="js/particles-config.js"></script> 
+        <script src="js/main.js"></script>
+    </body>
+</html>
